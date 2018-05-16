@@ -8,14 +8,14 @@
 	padding-top: 20px;
 }
 .first-row > div:nth-child(1) {
-	width: 200px;
+	width: 180px;
 	padding-right: 20px;
 }
 .first-row > div:nth-child(2) {
 	width: 740px;
 }
 .first-row > div:nth-child(3) {
-	width: 200px;
+	width: 180px;
 	padding-left: 20px;
 }
 
@@ -57,3 +57,120 @@
 	font-size: 26px;
 	padding-top: 270px; 
 }
+
+/*******second row ***********/
+
+.second-row h2 {
+	text-transform: uppercase;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background-color: #313131;
+	color: #fff;
+	font-size: 19px;
+	width: 100%;
+}
+
+.second-row div {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.catalogue {
+	position: relative;
+	display: block;
+	height: 210px;
+	flex: 0 0 25%;
+	background-color: #80c351;
+	background-repeat: no-repeat;
+}
+
+.catalogue:nth-child(2),
+.catalogue:nth-child(4),
+.catalogue:nth-child(5),
+.catalogue:nth-child(7) {
+	background-color: #7dbb52;
+}
+
+.catalogue:nth-child(1){background-image: url(../../img/icon_1.png);background-size: 50%;background-position: center 15px;}
+.catalogue:nth-child(2){background-image: url(../../img/icon_2.png);background-size: 35%;background-position: center 25px;}
+.catalogue:nth-child(3){background-image: url(../../img/icon_3.png);background-size: 50%;background-position: center 20px;}
+.catalogue:nth-child(4){background-image: url(../../img/icon_4.png);background-size: 27%;background-position: center 17px;}
+.catalogue:nth-child(5){background-image: url(../../img/icon_5.png);background-size: 40%;background-position: center 35px;}
+.catalogue:nth-child(6){background-image: url(../../img/icon_6.png);background-size: 40%;background-position: center 40px;}
+.catalogue:nth-child(7){background-image: url(../../img/icon_7.png);background-size: 50%;background-position: center 25px;}
+.catalogue:nth-child(8){background-image: url(../../img/icon_8.png);background-size: 45%;background-position: center 25px;}
+
+.catalogue span {
+	position: absolute;
+	display: block;
+	bottom: 5%;
+	color: #fff;
+	text-transform: uppercase;	
+	font-size: 20px;
+	width: 100%;
+	text-align: center;
+}
+
+
+/*******third row ***********/
+
+.third-row h2 {
+	margin-top: 20px;
+	text-transform: uppercase;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background-color: #313131;
+	color: #fff;
+	font-size: 19px;
+	width: 100%;
+}
+
+.third-row div {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.social {
+	position: relative;
+	display: block;
+	height: 40px;
+	flex: 1;
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-position: 20px 0;
+	text-transform: uppercase;
+	color: #fff;
+	line-height: 40px;
+}
+.social span {
+	margin-top: 7.5px;
+	margin-left: 80px;
+	margin-right: 10px;
+	display: block;
+	width: 25px;
+	height: 25px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	float: left;
+}
+
+
+.social:nth-child(1){background: linear-gradient(rgb(216, 105, 215) 0%, rgb(102, 79, 189) 100%);}
+.social:nth-child(2){background: linear-gradient(rgb(81, 161, 236) 0%, rgb(126, 126, 126) 100%);}
+.social:nth-child(3){background: linear-gradient(rgb(153, 153, 153) 0%, rgb(91, 153, 201) 100%);}
+.social:nth-child(4){background: linear-gradient(rgb(232, 146, 44) 0%, rgb(189, 189, 189) 100%);}
+
+.social:nth-child(1) span {background-image: url(../../img/icon_insta.png);}
+.social:nth-child(2) span {background-image: url(../../img/icon_fb.png);}
+.social:nth-child(3) span {background-image: url(../../img/icon_vk.png);}
+.social:nth-child(4) span {background-image: url(../../img/icon_mail.png);}
