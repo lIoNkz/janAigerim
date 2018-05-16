@@ -14,6 +14,7 @@
 	<!-- MAIN STYLES -->
 	<link rel="stylesheet" href="/css/app.css">
 	<link rel="stylesheet" href="/css/header.css">
+	<link rel="stylesheet" href="/css/footer.css">
 	<link rel="stylesheet" href="/css/grid.css">
 	<!-- SLICK SLIDER STYLES -->
 	<link rel="stylesheet" href="/css/slick.min.css">
@@ -29,7 +30,7 @@
 	<main>
 		@yield('content')
 	</main>
-	<footer class="mp-footer">
+	<footer>
 		@include('frontend.partials._footer')
 	</footer>
 
