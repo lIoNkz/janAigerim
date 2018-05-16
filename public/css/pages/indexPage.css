@@ -1,0 +1,59 @@
+.first-row {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	height: 420px;
+	padding-top: 20px;
+}
+.first-row > div:nth-child(1) {
+	width: 200px;
+	padding-right: 20px;
+}
+.first-row > div:nth-child(2) {
+	width: 740px;
+}
+.first-row > div:nth-child(3) {
+	width: 200px;
+	padding-left: 20px;
+}
+
+.js-slider-left div,
+.js-slider-center div,
+.js-slider-right div {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.js-slider-center .slick-slide {
+	background-image: url(../../img/s2-1.jpg);
+	background-size: cover; 
+}
+
+.js-slider-left .slick-slide {
+	background-image: url(../../img/s1-1.png);
+	background-size: cover; 
+}
+
+.js-slider-right .slick-slide {
+	background-image: url(../../img/s3-1.png);
+	background-size: cover;
+}
+
+.js-slider-left div p:first-child,
+.js-slider-right div p:first-child {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 26px;
+	padding-top: 20px;
+}
+
+.js-slider-left div p:last-child,
+.js-slider-right div p:last-child {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 26px;
+	padding-top: 270px; 
+}
