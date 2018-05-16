@@ -225,7 +225,6 @@
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	justify-content: space-between;
 }
 #third_row a {
 	display: -webkit-flex;
@@ -235,7 +234,7 @@
 	display: flex;
 	justify-content: center;
 	line-height: 20px;
-	width: 200px;
+	flex: 1;
 	height: 100%;
 	font-size: 18px;
 	color: #fff;

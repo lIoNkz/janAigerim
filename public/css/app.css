@@ -31,3 +31,7 @@ a {
 	text-decoration: none;
 	cursor: pointer;
 }
+
+main {
+	min-height: calc(100vh - 377px); /* 237px header + 140px footer*/
+}
