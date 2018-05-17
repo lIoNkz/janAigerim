@@ -4,8 +4,9 @@
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	height: 420px;
+	height: 400px;
 	padding-top: 20px;
+	margin-bottom: 20px;
 }
 .first-row > div:nth-child(1) {
 	width: 180px;
@@ -82,11 +83,19 @@
 
 .catalogue {
 	position: relative;
-	display: block;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	height: 210px;
 	flex: 0 0 25%;
 	background-color: #80c351;
 	background-repeat: no-repeat;
+	background-size: 40%;
+	transition: 0.2s all ease;
 }
 
 .catalogue:nth-child(2),
@@ -95,15 +104,6 @@
 .catalogue:nth-child(7) {
 	background-color: #7dbb52;
 }
-
-.catalogue:nth-child(1){background-image: url(../../img/icon_1.png);background-size: 50%;background-position: center 15px;}
-.catalogue:nth-child(2){background-image: url(../../img/icon_2.png);background-size: 35%;background-position: center 25px;}
-.catalogue:nth-child(3){background-image: url(../../img/icon_3.png);background-size: 50%;background-position: center 20px;}
-.catalogue:nth-child(4){background-image: url(../../img/icon_4.png);background-size: 27%;background-position: center 17px;}
-.catalogue:nth-child(5){background-image: url(../../img/icon_5.png);background-size: 40%;background-position: center 35px;}
-.catalogue:nth-child(6){background-image: url(../../img/icon_6.png);background-size: 40%;background-position: center 40px;}
-.catalogue:nth-child(7){background-image: url(../../img/icon_7.png);background-size: 50%;background-position: center 25px;}
-.catalogue:nth-child(8){background-image: url(../../img/icon_8.png);background-size: 45%;background-position: center 25px;}
 
 .catalogue span {
 	position: absolute;
@@ -114,8 +114,8 @@
 	font-size: 20px;
 	width: 100%;
 	text-align: center;
+	transition: 0.2s all ease;
 }
-
 
 /*******third row ***********/
 
@@ -174,3 +174,119 @@
 .social:nth-child(2) span {background-image: url(../../img/icon_fb.png);}
 .social:nth-child(3) span {background-image: url(../../img/icon_vk.png);}
 .social:nth-child(4) span {background-image: url(../../img/icon_mail.png);}
+
+/*  fourth-row */
+
+.fourth-row {
+	height: 180px;
+	margin-top: 20px;
+	position: relative;
+	background: linear-gradient(0deg,rgb(255, 255, 48) 0%, rgb(128, 195, 81) 30%);
+	margin-bottom: 20px;
+}
+
+.fourth-row * {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.fr1 {
+	font-size: 48px;
+	line-height: 43px;
+	position: absolute;
+	left: 3%;
+	top: 16%;
+	letter-spacing: 0.5px;
+}
+
+.fr2 {
+	position: absolute;
+	left: 3%;
+	font-size: 48px;
+	line-height: 43px;
+	top: 43%;
+	letter-spacing: 0.5px;
+}
+
+.fr3 {
+	font-size: 28px;
+	position: absolute;
+	bottom: 10%;
+	left: 3%;
+	font-family: Medium;
+	letter-spacing: 0.8px;
+}
+
+.subscribe {
+	float: right;
+	width: 55%;
+	margin-right: 20px;
+	margin-top: 35px;
+}
+.percent {
+	font-size: 120px;
+	position: absolute;
+	left: 25%;
+	top: 2%;
+}
+.subscribe a {
+	display: block;
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	border: 2px solid #fff;
+	font-family: Medium;
+	font-size: 23px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+
+/* animation */
+
+.catalogue div {
+	width: 92%;
+	height: 90%;
+}
+
+.js-hover {
+	border: 2px solid #fff;
+	animation: 0.2s hover ease;
+}
+
+@keyframes hover {
+	from {
+		width: 98%;
+		height: 98%;
+	}
+	to {
+		width: 92%;
+		height: 90%;
+	}
+}
+.catalogue span{
+	bottom: 11%;
+}
+
+.catalogue:hover {
+	background-size: 45%;
+}
+
+
+.catalogue:nth-child(1){background-image: url(../../img/icon_1.png);background-size: 47%; background-position: center 30px;}
+.catalogue:nth-child(2){background-image: url(../../img/icon_2.png);background-size: 48%; background-position: center 30px;}
+.catalogue:nth-child(3){background-image: url(../../img/icon_3.png);background-size: 46%; background-position: center 20px;}
+.catalogue:nth-child(4){background-image: url(../../img/icon_4.png);background-size: 52%; background-position: center 28px;}
+.catalogue:nth-child(5){background-image: url(../../img/icon_5.png);background-size: 38%; background-position: center 35px;}
+.catalogue:nth-child(6){background-image: url(../../img/icon_6.png);background-size: 41%; background-position: center 40px;}
+.catalogue:nth-child(7){background-image: url(../../img/icon_7.png);background-size: 48%; background-position: center 25px;}
+.catalogue:nth-child(8){background-image: url(../../img/icon_8.png);background-size: 43%; background-position: center 25px;}
+
+.catalogue:nth-child(1):hover {background-size: 50%;}
+.catalogue:nth-child(2):hover {background-size: 50%;}
+.catalogue:nth-child(3):hover {background-size: 48%;}
+.catalogue:nth-child(4):hover {background-size: 54%;}
+.catalogue:nth-child(5):hover {background-size: 40%;}
+.catalogue:nth-child(6):hover {background-size: 43%;}
+.catalogue:nth-child(7):hover {background-size: 50%;}
+.catalogue:nth-child(8):hover {background-size: 45%;}

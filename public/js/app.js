@@ -1,3 +1,4 @@
+/******************** SLICK SLIDERS **********************/
 $('.js-slider-center').slick({
 	autoplay: true,
   	autoplaySpeed: 4000,
@@ -18,3 +19,16 @@ $('.js-slider-right').slick({
   	dots: true,
   	arrows: false
 });
+
+
+/*************************************/
+
+$('.catalogue div').mouseenter(function() {
+	$(this).addClass('js-hover');
+	$('.catalogue span').addClass('js-hover-text');
+})
+
+$('.catalogue div').mouseleave(function() {
+	$(this).removeClass('js-hover');
+	$('.catalogue span').addClass('js-hover-text');
+})
