@@ -10,14 +10,20 @@ $('.js-slider-left').slick({
 	autoplay: true,
   	autoplaySpeed: 3000,
   	dots: true,
-  	arrows: false
+  	arrows: false,  
+    fade: true,
+  	cssEase: 'linear',
+  	speed: 500
 });
 
 $('.js-slider-right').slick({
 	autoplay: true,
   	autoplaySpeed: 3000,
   	dots: true,
-  	arrows: false
+  	arrows: false,
+  	fade: true,
+  	cssEase: 'linear',
+  	speed: 500
 });
 
 
