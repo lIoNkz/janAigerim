@@ -38,3 +38,24 @@ $('.catalogue div').mouseleave(function() {
 	$(this).removeClass('js-hover');
 	$('.catalogue span').addClass('js-hover-text');
 })
+
+
+// CLICK ON CATEGORY 
+
+var numberOfCat;
+$(".catalogue").click(function() {
+  numberOfCat = $(this).data('id');
+  $("#"+numberOfCat).removeClass("hide-cat");
+  $("#"+numberOfCat).addClass("show-cat");
+  $(".js-close-catalogue").show();
+  $(".catalogue-content").delay(400).show();
+  $(".c-title").show();
+});
+
+$(".js-close-catalogue").click(function() {
+  $("#"+numberOfCat).removeClass("show-cat");
+  $("#"+numberOfCat).addClass("hide-cat");
+  $(".js-close-catalogue").hide();
+  $(".catalogue-content").hide();
+  $(".c-title").hide();
+});
