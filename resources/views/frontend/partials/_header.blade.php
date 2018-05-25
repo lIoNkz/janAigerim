@@ -1,17 +1,17 @@
 <!-- FIRST ROW -->
 <div id="first_row">
   <div class="container">
-    <ul>
-      <li><a href="#accii">Акции</a></li>
-      <li><a class="slash">|</a></li>
-      <li><a href="#oplata">Оплата и доставка</a></li>
-      <li><a class="slash">|</a></li>
-      <li><a href="#top_menu">Гарантия и сервис</a></li>
-      <li><a class="slash">|</a></li>
-      <li><a href="#top_menu">О компании</a></li>
-      <li><a class="slash">|</a></li>
-      <li><a href="#top_menu">Контакты</a></li>
-    </ul>
+<!--     <ul>
+  <li><a href="#accii">Акции</a></li>
+  <li><a class="slash">|</a></li>
+  <li><a href="#oplata">Оплата и доставка</a></li>
+  <li><a class="slash">|</a></li>
+  <li><a href="#top_menu">Гарантия и сервис</a></li>
+  <li><a class="slash">|</a></li>
+  <li><a href="#top_menu">О компании</a></li>
+  <li><a class="slash">|</a></li>
+  <li><a href="#top_menu">Контакты</a></li>
+</ul> -->
     <div class="login">
       <a href="#sign_in">Вход</a>
       <a class="slash">|</a>
@@ -54,10 +54,10 @@
 
 <div id="third_row">
   <div class="container">
-    <a href="#sub-menu"><span></span><span>Строительные материалы</span></a>
-    <a href="#sub-menu"><span></span><span>Отделочные материалы</span></a>
-    <a href="#sub-menu"><span></span><span>Сантехника, отопление</span></a>
-    <a href="#sub-menu"><span></span><span>Электрика и освещение</span></a>
-    <a href="#sub-menu"><span></span><span>Инструменты и оборудования</span></a>
+    <a href="#sub-menu"><span></span><span>Акции</span></a>
+    <a href="#sub-menu"><span></span><span>Оплата и доставка</span></a>
+    <a href="#sub-menu"><span></span><span>Гарантия и сервис</span></a>
+    <a href="#sub-menu"><span></span><span>О компании</span></a>
+    <a href="#sub-menu"><span></span><span>Контакты</span></a>
   </div>
 </div>
