@@ -42,14 +42,18 @@ $('.catalogue div').mouseleave(function() {
 
 // CLICK ON CATEGORY 
 
-var numberOfCat;
+var numberOfCat,
+    numberOfPrevCat = 1;
+
 $(".catalogue").click(function() {
   numberOfCat = $(this).data('id');
-  $("#"+numberOfCat).removeClass("hide-cat");
+  $("#"+numberOfPrevCat).removeClass("hide-cat");
   $("#"+numberOfCat).addClass("show-cat");
   $(".js-close-catalogue").show();
-  $(".catalogue-content").delay(400).show();
+  $(".catalogue-content").show();
+  $(".catalogue-wrap").addClass("catalogue-wrap-hide");
   $(".c-title").show();
+  numberOfPrevCat = numberOfCat;
 });
 
 $(".js-close-catalogue").click(function() {
@@ -57,5 +61,10 @@ $(".js-close-catalogue").click(function() {
   $("#"+numberOfCat).addClass("hide-cat");
   $(".js-close-catalogue").hide();
   $(".catalogue-content").hide();
+  $(".catalogue-wrap").removeClass("catalogue-wrap-hide");
+  setTimeout(function () {
+    $("#"+numberOfCat).removeClass("hide-cat");
+}, 350);
   $(".c-title").hide();
 });
+
