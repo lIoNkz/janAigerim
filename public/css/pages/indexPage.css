@@ -446,3 +446,7 @@
 	height: 420px;
 	z-index: -1;
 }
+
+main .container {
+	box-shadow: unset;
+}

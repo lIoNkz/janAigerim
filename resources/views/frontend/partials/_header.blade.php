@@ -54,10 +54,10 @@
 
 <div id="third_row">
   <div class="container">
-    <a href="#sub-menu"><span></span><span>Акции</span></a>
-    <a href="#sub-menu"><span></span><span>Оплата и доставка</span></a>
-    <a href="#sub-menu"><span></span><span>Гарантия и сервис</span></a>
     <a href="#sub-menu"><span></span><span>О компании</span></a>
     <a href="#sub-menu"><span></span><span>Контакты</span></a>
+    <a href="#sub-menu"><span></span><span>Оплата и доставка</span></a>
+    <a href="#sub-menu"><span></span><span>Гарантия и сервис</span></a>
+    <a href="#sub-menu"><span></span><span>Акции</span></a>
   </div>
 </div>
