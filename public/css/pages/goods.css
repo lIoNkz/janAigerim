@@ -237,6 +237,7 @@ display: none;
 	display: flex;
 	overflow-x: scroll;
 	overflow-y: hidden;
+	min-height: 119px;
 }
 
 .vp-type .half {
@@ -255,24 +256,28 @@ input.checkbox {
 	background-color: #fff;
 }
 
-.vp-type::-webkit-scrollbar {
+.vp-type::-webkit-scrollbar,
+.vp-brand::-webkit-scrollbar {
     height: 7px;}
 
 /* Track */
-.vp-type::-webkit-scrollbar-track {
+.vp-type::-webkit-scrollbar-track,
+.vp-brand::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px #313131;
     background-color: #313131;
     border-radius: 10px;
 }
  
 /* Handle */
-.vp-type::-webkit-scrollbar-thumb {
+.vp-type::-webkit-scrollbar-thumb,
+.vp-brand::-webkit-scrollbar-thumb {
     background: #6cc52e; 
     border-radius: 10px;
 }
 
 /* Handle on hover */
-.vp-type::-webkit-scrollbar-thumb:hover {
+.vp-type::-webkit-scrollbar-thumb:hover,
+.vp-brand::-webkit-scrollbar-thumb:hover {
     background: #79da35; 
 }
 
