@@ -1,0 +1,37 @@
+.slider-row {
+	width: 100%;
+	padding: 50px 0;
+}
+.slider-row img {
+	margin: 0 auto;
+	width: 60%;
+	display: block;
+}
+
+.slider-row ul li {
+	display: block;
+	width: 1000px;
+}
+.text-row {
+	width: 100%;
+	margin-bottom: 100px;
+}
+
+.text-row p {
+	width: 95%;
+	margin: 0 auto;
+	font-family: Normal;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.text-row h2 {
+	text-transform: uppercase;
+	width: 95%;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+main .container {
+	background: #fff;
+}

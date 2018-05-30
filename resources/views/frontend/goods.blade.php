@@ -3,6 +3,7 @@
 @section('head')
   <title>Товары</title>
   <link rel="stylesheet" href="/css/pages/goods.css">
+  <link rel="stylesheet" href="/css/pages/delivery.guarantee.product-popup.css">
   <link rel="stylesheet" href="/css/vendor/ion.rangeSlider.css">
   <link rel="stylesheet" href="/css/vendor/ion.rangeSlider.skinHTML5.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -170,7 +171,7 @@
     <div class="product">
       <div class="p-container">
         <div class="p-photo">
-          <div></div>
+          <div class="fa fa-search"></div>
           <img src="/img/products/carpet.png" alt="product">
         </div>
         <div class="p-text">
@@ -196,7 +197,151 @@
     <div class="product">
       <div class="p-container">
         <div class="p-photo">
-          <div></div>
+          <div class="fa fa-search"></div>
+          <img src="/img/products/carpet.png" alt="product">
+        </div>
+        <div class="p-text">
+          <p>Коврик Stonehenge Grey 60x91</p>
+          <p>Коврик Stonehenge Grey 60x91</p>
+          <p>Коврик Stonehenge Grey 60x91</p>
+          <p class="p-price">11 990 тг</p>
+          <div class="p-stars">
+            <p>7 отзывов</p>
+            <span class="fa fa-star-o checked" data-id="1"></span>
+            <span class="fa fa-star-o checked" data-id="2"></span>
+            <span class="fa fa-star-o checked" data-id="3"></span>
+            <span class="fa fa-star-o" data-id="4"></span>
+            <span class="fa fa-star-o" data-id="5"></span>
+          </div>
+          <button class="tocart">
+            <span class="fa fa-shopping-cart"></span>
+            <span>В корзину</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="p-popup">
+      <div class="p-center">
+        <div class="leftBlock">
+                <div class="prod_slider">
+                  <div class="slHeader">
+                    <h1>Коврик Stonehedge Grey 60х91</h1>
+                    <div class="slButton rightBtn"></div>
+                    <div class="slButton leftBtn"></div>
+                  </div>
+                  <div class="sliderWrap">
+                    <div class="mySlide">
+                    <img src="/img/product.jpg" alt="">
+                    <span class="loupe"></span>
+                  </div>
+                  </div>
+                  <div class="prodData">
+                    <h3>Stonehedge Grey 60х91</h3>
+                    <p>код: 733664 </p>
+                    <p>есть в наличии</p>
+                    <h4 style="margin: 20px 0 5px 0">Дополнительная информация</h4>
+                    <p>Единица измерения: шт.</p>
+                    <p>Материал: ПВХ</p>
+                    <p>Материал основы: резина</p>
+                    <p>Тип: Коврик</p>
+                    <p>Ширина, см: 60</p>
+                    <p>Страна производитель: США</p>
+                  </div>
+                  <div class="clear"></div>
+                  <div class="prodDescription">
+                    <h4>Описание</h4>
+                    <ul>
+                      <li>- Отличный, влаго и грязепоглощающий коврик поможет Вам избежать резкого увеличения количества уборок с наступлением слякотной погоды!</li>
+                      <li>- Коврик максимально задержит распространение принесенной в помещение на обуви грязи и влаги, защитит пол от сырости, поддержит порядок.</li>
+                      <li>- Большой коврик превосходно очистит подошвы Ваших гостей и посетителей офиса, чем избавит их от неловкости перед хозяевами за лишние хлопоты.</li>
+                      <li>- Удобный коврик, весом всего 3,5 кг., проще вытряхнуть от пыли, чем производить уборку за каждым вошедшим в офис, кафе или магазин.</li>
+                      <li>- А ухаживать за ковриком одно удовольствие - вытряхнул, сполоснул и высушил на воздухе - сплошная гигиена и никакого неприятного запаха!</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="action_info">
+                  <p>к этому товару действует скидки</p>
+                  <span class="ten">-10%</span>
+                  <p>ПРИ ПОКУПКЕ БОЛЬШЕ <span class="five">5шт.</span></p>
+                </div>
+                
+                <div class="promotion">
+                  <h4>акции И специальные предложения</h4>
+                  <div class="pSlides">
+                    <img src="images/pProducts.jpg" alt="">
+                    <span class="ploupe"></span> 
+                    <h5>Коврик Stonehedge Grey 60х91 цена: 5000 ТНГ. </h5>
+                  </div>
+                  <div class="pSlides">
+                    <img src="images/pProducts.jpg" alt="">
+                    <span class="ploupe"></span> 
+                    <h5>Коврик Stonehedge Grey 60х91 цена: 5000 ТНГ. </h5>
+                  </div>
+                  <div class="pSlides">
+                    <img src="images/pProducts.jpg" alt="">
+                    <span class="ploupe"></span> 
+                    <h5>Коврик Stonehedge Grey 60х91 цена: 5000 ТНГ. </h5>
+                  </div>
+                  <div class="pBtn pArrowLeft"></div>
+                  <div class="pBtn pArrowRight"></div>
+                </div>
+                <div class="saveProd">
+                  <h5><img src="images/icons/star.png" alt="" class="star">сохранить товар в избранное</h5>
+                </div>
+              </div>
+              <!-- Right block -->
+              <div class="rightBlock">
+                <div class="rightHeader">
+                  <div class="closeButton"></div>
+                </div>
+                <div class="testimonialsArea">
+                  <h3>Отзывы (7 Отзывов)</h3>
+                  <div class="testi">
+                    <h4>Серик</h4>
+                    <div class="advanced">
+                      <div class="raiting"></div>
+                      <span>25.05.2018 г.</span>
+                    </div>
+                    <div class="clear"></div>
+                    <p>Отличный, влаго и грязепоглощающий коврик поможет Вам избежать</p>
+                  </div>
+                  <div class="testi">
+                    <h4>Серик</h4>
+                    <div class="advanced">
+                      <div class="raiting"></div>
+                      <span>25.05.2018 г.</span>
+                    </div>
+                    <div class="clear"></div>
+                    <p>Отличный, влаго и грязепоглощающий коврик поможет Вам избежать</p>
+                  </div>
+                </div>
+                <div class="form">
+                  <label for="">Имя<input type="text"></label>
+                  <label for="">Email<input type="text"></label>
+                  <label for="">Сообщение</label>
+                  <textarea name="" id="" cols="30" rows="10">
+                  </textarea>
+                  <div class="raitingTesti"></div>
+                  <button type="submit" class="addTestiBtn">Оставить отзыв</button>
+                </div>
+                <form class="priceBlock">
+                  <p class="titlePrice">Цена</p>
+                  <p class="titleCena">11 990 ТНГ.</p>
+                  <p class="col">Количество&nbsp;&nbsp;<span class="minus">-</span><span class="plus">+</span></p>
+                  <p class="col_cena">10 шт. Х 11 990 ТНГ. (-10%) = </p>
+                  <p class="total_sum">107 910 ТНГ.</p>
+                  <p class="titleTotalSumWithSale">ОБЩАЯ СУММА (СО СКИДКОЙ)</p>
+                  <button type="submit" class="inBasket">В Корзину</button>
+                </form>
+              </div>
+              <div class="clear"></div>
+      </div>
+    </div>
+    <div class="product">
+      <div class="p-container">
+        <div class="p-photo">
+          <div class="fa fa-search"></div>
           <img src="/img/products/carpet.png" alt="product">
         </div>
         <div class="p-text">
@@ -222,7 +367,7 @@
     <div class="product">
       <div class="p-container">
         <div class="p-photo">
-          <div></div>
+          <div class="fa fa-search"></div>
           <img src="/img/products/carpet.png" alt="product">
         </div>
         <div class="p-text">
@@ -248,7 +393,7 @@
     <div class="product">
       <div class="p-container">
         <div class="p-photo">
-          <div></div>
+          <div class="fa fa-search"></div>
           <img src="/img/products/carpet.png" alt="product">
         </div>
         <div class="p-text">
@@ -274,7 +419,7 @@
     <div class="product">
       <div class="p-container">
         <div class="p-photo">
-          <div></div>
+          <div class="fa fa-search"></div>
           <img src="/img/products/carpet.png" alt="product">
         </div>
         <div class="p-text">
@@ -300,7 +445,7 @@
     <div class="product">
       <div class="p-container">
         <div class="p-photo">
-          <div></div>
+          <div class="fa fa-search"></div>
           <img src="/img/products/carpet.png" alt="product">
         </div>
         <div class="p-text">
@@ -326,33 +471,7 @@
     <div class="product">
       <div class="p-container">
         <div class="p-photo">
-          <div></div>
-          <img src="/img/products/carpet.png" alt="product">
-        </div>
-        <div class="p-text">
-          <p>Коврик Stonehenge Grey 60x91</p>
-          <p>Коврик Stonehenge Grey 60x91</p>
-          <p>Коврик Stonehenge Grey 60x91</p>
-          <p class="p-price">11 990 тг</p>
-          <div class="p-stars">
-            <p>7 отзывов</p>
-            <span class="fa fa-star-o checked" data-id="1"></span>
-            <span class="fa fa-star-o checked" data-id="2"></span>
-            <span class="fa fa-star-o checked" data-id="3"></span>
-            <span class="fa fa-star-o" data-id="4"></span>
-            <span class="fa fa-star-o" data-id="5"></span>
-          </div>
-          <button class="tocart">
-            <span class="fa fa-shopping-cart"></span>
-            <span>В корзину</span>
-          </button>
-        </div>
-      </div>
-    </div>
-    <div class="product">
-      <div class="p-container">
-        <div class="p-photo">
-          <div></div>
+          <div class="fa fa-search"></div>
           <img src="/img/products/carpet.png" alt="product">
         </div>
         <div class="p-text">
@@ -448,6 +567,15 @@ $('.tocart').click(function() {
   }
 });
 
+// close popup
+
+$('.closeButton').click(function() {
+  $('.p-popup').removeClass('popup-show');
+});
+
+$('.p-photo').click(function() {
+  $('.p-popup').addClass('popup-show');
+});
 
 </script>
 @endsection
