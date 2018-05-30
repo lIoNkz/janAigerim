@@ -66,7 +66,7 @@
       <span>Все (155)</span>
       <p class="f-title">Цена</p>
       <div class="price">
-        C <input type="text" name="from" id="from"> До <input type="text" name="to" id="fromto"> Тенге
+        C <input type="text" name="from" id="from" value="200"> До <input type="text" name="to" id="fromto" value="1000"> Тенге
       </div>
       <span id="range_03"></span>
     </div>
@@ -86,6 +86,30 @@
           <span>Покрытие щетинистое (5)</span><br>
         </div>
         <div class="half">
+          <input type="checkbox" name="type" class="checkbox">
+          <span>Коврик (25)</span><br>
+          <input type="checkbox" name="type" class="checkbox">
+          <span>Коврик (38)</span><br>
+          <input type="checkbox" name="type" class="checkbox">
+          <span>Покрытие щетинистое (17)</span><br>
+          <input type="checkbox" name="type" class="checkbox">
+          <span>Коврик (155)</span><br>
+          <input type="checkbox" name="type" class="checkbox">
+          <span>Покрытие щетинистое (9)</span><br>
+        </div>
+        <div class="half">
+          <input type="checkbox" name="type" class="checkbox">
+          <span>Коврик (25)</span><br>
+          <input type="checkbox" name="type" class="checkbox">
+          <span>Коврик (38)</span><br>
+          <input type="checkbox" name="type" class="checkbox">
+          <span>Покрытие щетинистое (17)</span><br>
+          <input type="checkbox" name="type" class="checkbox">
+          <span>Коврик (155)</span><br>
+          <input type="checkbox" name="type" class="checkbox">
+          <span>Покрытие щетинистое (9)</span><br>
+        </div>
+                <div class="half">
           <input type="checkbox" name="type" class="checkbox">
           <span>Коврик (25)</span><br>
           <input type="checkbox" name="type" class="checkbox">
@@ -369,11 +393,19 @@ var isFilterOpen = false;
 $('#show').click(function() {
   if(isFilterOpen === false){
     $('#show').html('Скрыть');
-    $('.filter-row').slideToggle();
+    $('.filter-row').slideToggle(200);
+    $('.filter-row > div').show();
+    $('.filter-row').addClass('filter-row-show');
     isFilterOpen = true;
   } else {
     $('#show').html('Показать');
-    $('.filter-row').slideToggle();
+    $('.filter-row').slideToggle(200);
+    $('.filter-row').removeClass('filter-row-show');
+    $('.filter-row').addClass('filter-row-hide');
+    $('.filter-row > div').hide();
+    setTimeout(function(){
+      $('.filter-row').removeClass('filter-row-hide');
+    },200);
     isFilterOpen = false;
   }
 
@@ -400,6 +432,21 @@ $("#range_03").on("change", function () {
 
 // RATING STARS
 
+//CLICK ON CART BUTTON
+
+$('.tocart').click(function() {
+  if($('.fa-check', this).length == 0){
+    $('.fa', this).removeClass('fa-shopping-cart');
+    $('.fa', this).addClass('fa-check');
+    $('span:last-child', this).html('В корзине');
+ 
+  } else {
+    $('.fa', this).removeClass('fa-check');
+    $('.fa', this).addClass('fa-shopping-cart');
+    $('span:last-child', this).html('В корзину');
+
+  }
+});
 
 
 </script>

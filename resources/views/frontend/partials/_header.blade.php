@@ -24,15 +24,15 @@
 <div id="second_row">
   <div class="container">
     <div class="logo">
-      <a href="#">
+      <a href="/">
         <img src="/img/logo.png" alt="logo">
       </a>
     </div>
     <div class="search">
       <div>
-        <a href="#" class="special_buttons"><span><p>12+</p></span><p>Рекомендации</p><p>Специально для вас</p></a>
-        <a href="#" class="special_buttons"><span><p>25+</p></span><p>В избранном</p><p>Пока нет ничего</p></a>
-        <a href="#" class="special_buttons"><span><p>18+</p></span><p>В корзине</p><p>Есть товар на 99 500 тг.</p></a>
+        <a href="/recommend" class="special_buttons"><span><p>12+</p></span><p>Рекомендации</p><p>Специально для вас</p></a>
+        <a href="/chosen" class="special_buttons"><span><p>25+</p></span><p>В избранном</p><p>Пока нет ничего</p></a>
+        <a href="/cart" class="special_buttons"><span><p>18+</p></span><p>В корзине</p><p>Есть товар на 99 500 тг.</p></a>
       </div>
       <form action="#" method="GET">
         <input type="search" name="search" id="">
@@ -54,10 +54,10 @@
 
 <div id="third_row">
   <div class="container">
-    <a href="#sub-menu"><span></span><span>О компании</span></a>
-    <a href="#sub-menu"><span></span><span>Контакты</span></a>
-    <a href="#sub-menu"><span></span><span>Оплата и доставка</span></a>
-    <a href="#sub-menu"><span></span><span>Гарантия и сервис</span></a>
-    <a href="#sub-menu"><span></span><span>Акции</span></a>
+    <a href="/company"><span></span><span>О компании</span></a>
+    <a href="/contacts"><span></span><span>Контакты</span></a>
+    <a href="/delivery"><span></span><span>Оплата и доставка</span></a>
+    <a href="/garanty"><span></span><span>Гарантия и сервис</span></a>
+    <a href="/sales"><span></span><span>Акции</span></a>
   </div>
 </div>

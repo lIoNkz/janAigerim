@@ -144,6 +144,7 @@
 	font-size: 9px;
 	text-align: center;
 	line-height: 15px;
+	    color: #313131;
 }
 .search div a:nth-child(1) span p {top: 27%;left: 7%;}
 .search div a:nth-child(2) span p {top: 28%;left: 12%;}
