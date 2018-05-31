@@ -61,7 +61,7 @@
   <div class="filter-row">
     <div class="f1">
       <p class="f-title">Товар</p>
-      <input type="radio" name="stock" value="В наличии">
+      <input type="radio" name="stock" value="В наличии" checked>
       <span>Есть в наличии (72)</span><br>
       <input type="radio" name="stock" value="Все">
       <span>Все (155)</span>
@@ -181,9 +181,9 @@
           <p class="p-price">11 990 тг</p>
           <div class="p-stars">
             <p>7 отзывов</p>
-            <span class="fa fa-star-o checked" data-id="1"></span>
-            <span class="fa fa-star-o checked" data-id="2"></span>
-            <span class="fa fa-star-o checked" data-id="3"></span>
+            <span class="fa fa-star checked" data-id="1"></span>
+            <span class="fa fa-star checked" data-id="2"></span>
+            <span class="fa fa-star checked" data-id="3"></span>
             <span class="fa fa-star-o" data-id="4"></span>
             <span class="fa fa-star-o" data-id="5"></span>
           </div>
@@ -207,9 +207,9 @@
           <p class="p-price">11 990 тг</p>
           <div class="p-stars">
             <p>7 отзывов</p>
-            <span class="fa fa-star-o checked" data-id="1"></span>
-            <span class="fa fa-star-o checked" data-id="2"></span>
-            <span class="fa fa-star-o checked" data-id="3"></span>
+            <span class="fa fa-star checked" data-id="1"></span>
+            <span class="fa fa-star checked" data-id="2"></span>
+            <span class="fa fa-star checked" data-id="3"></span>
             <span class="fa fa-star-o" data-id="4"></span>
             <span class="fa fa-star-o" data-id="5"></span>
           </div>
@@ -269,17 +269,17 @@
                 <div class="promotion">
                   <h4>акции И специальные предложения</h4>
                   <div class="pSlides">
-                    <img src="images/pProducts.jpg" alt="">
+                    <img src="/img/pProducts.jpg" alt="">
                     <span class="ploupe"></span> 
                     <h5>Коврик Stonehedge Grey 60х91 цена: 5000 ТНГ. </h5>
                   </div>
                   <div class="pSlides">
-                    <img src="images/pProducts.jpg" alt="">
+                    <img src="/img/pProducts.jpg" alt="">
                     <span class="ploupe"></span> 
                     <h5>Коврик Stonehedge Grey 60х91 цена: 5000 ТНГ. </h5>
                   </div>
                   <div class="pSlides">
-                    <img src="images/pProducts.jpg" alt="">
+                    <img src="/img/pProducts.jpg" alt="">
                     <span class="ploupe"></span> 
                     <h5>Коврик Stonehedge Grey 60х91 цена: 5000 ТНГ. </h5>
                   </div>
@@ -287,7 +287,7 @@
                   <div class="pBtn pArrowRight"></div>
                 </div>
                 <div class="saveProd">
-                  <h5><img src="images/icons/star.png" alt="" class="star">сохранить товар в избранное</h5>
+                  <h5><span class="fa fa-star stra"></span>Сохранить товар в избранное</h5>
                 </div>
               </div>
               <!-- Right block -->
@@ -317,18 +317,25 @@
                   </div>
                 </div>
                 <div class="form">
-                  <label for="">Имя<input type="text"></label>
-                  <label for="">Email<input type="text"></label>
-                  <label for="">Сообщение</label>
-                  <textarea name="" id="" cols="30" rows="10">
+                  <span class="mys">Имя</span><input type="text" name="name">
+                  <span  class="mys"for="">Email</span><input type="text" name="email">
+                  <span  class="mys"for="text">Сообщение</span>
+                  <textarea name="text">
                   </textarea>
-                  <div class="raitingTesti"></div>
-                  <button type="submit" class="addTestiBtn">Оставить отзыв</button>
+                  <div class="fb-stars">
+                      <span class="fa fa-star checked" data-id="1"></span>
+                      <span class="fa fa-star checked" data-id="2"></span>
+                      <span class="fa fa-star checked" data-id="3"></span>
+                      <span class="fa fa-star-o" data-id="4"></span>
+                      <span class="fa fa-star-o" data-id="5"></span>
+                      <button type="submit" class="addTestiBtn">Оставить отзыв</button>
+                  </div>
+
                 </div>
                 <form class="priceBlock">
                   <p class="titlePrice">Цена</p>
                   <p class="titleCena">11 990 ТНГ.</p>
-                  <p class="col">Количество&nbsp;&nbsp;<span class="minus">-</span><span class="plus">+</span></p>
+                  <p class="col">Количество&nbsp;&nbsp;<span class="minus">&#8211;</span><span class="plus">+</span></p>
                   <p class="col_cena">10 шт. Х 11 990 ТНГ. (-10%) = </p>
                   <p class="total_sum">107 910 ТНГ.</p>
                   <p class="titleTotalSumWithSale">ОБЩАЯ СУММА (СО СКИДКОЙ)</p>
@@ -351,9 +358,9 @@
           <p class="p-price">11 990 тг</p>
           <div class="p-stars">
             <p>7 отзывов</p>
-            <span class="fa fa-star-o checked" data-id="1"></span>
-            <span class="fa fa-star-o checked" data-id="2"></span>
-            <span class="fa fa-star-o checked" data-id="3"></span>
+            <span class="fa fa-star checked" data-id="1"></span>
+            <span class="fa fa-star checked" data-id="2"></span>
+            <span class="fa fa-star checked" data-id="3"></span>
             <span class="fa fa-star-o" data-id="4"></span>
             <span class="fa fa-star-o" data-id="5"></span>
           </div>
@@ -377,9 +384,9 @@
           <p class="p-price">11 990 тг</p>
           <div class="p-stars">
             <p>7 отзывов</p>
-            <span class="fa fa-star-o checked" data-id="1"></span>
-            <span class="fa fa-star-o checked" data-id="2"></span>
-            <span class="fa fa-star-o checked" data-id="3"></span>
+            <span class="fa fa-star checked" data-id="1"></span>
+            <span class="fa fa-star checked" data-id="2"></span>
+            <span class="fa fa-star checked" data-id="3"></span>
             <span class="fa fa-star-o" data-id="4"></span>
             <span class="fa fa-star-o" data-id="5"></span>
           </div>
@@ -403,9 +410,9 @@
           <p class="p-price">11 990 тг</p>
           <div class="p-stars">
             <p>7 отзывов</p>
-            <span class="fa fa-star-o checked" data-id="1"></span>
-            <span class="fa fa-star-o checked" data-id="2"></span>
-            <span class="fa fa-star-o checked" data-id="3"></span>
+            <span class="fa fa-star checked" data-id="1"></span>
+            <span class="fa fa-star checked" data-id="2"></span>
+            <span class="fa fa-star checked" data-id="3"></span>
             <span class="fa fa-star-o" data-id="4"></span>
             <span class="fa fa-star-o" data-id="5"></span>
           </div>
@@ -429,9 +436,9 @@
           <p class="p-price">11 990 тг</p>
           <div class="p-stars">
             <p>7 отзывов</p>
-            <span class="fa fa-star-o checked" data-id="1"></span>
-            <span class="fa fa-star-o checked" data-id="2"></span>
-            <span class="fa fa-star-o checked" data-id="3"></span>
+            <span class="fa fa-star checked" data-id="1"></span>
+            <span class="fa fa-star checked" data-id="2"></span>
+            <span class="fa fa-star checked" data-id="3"></span>
             <span class="fa fa-star-o" data-id="4"></span>
             <span class="fa fa-star-o" data-id="5"></span>
           </div>
@@ -455,9 +462,9 @@
           <p class="p-price">11 990 тг</p>
           <div class="p-stars">
             <p>7 отзывов</p>
-            <span class="fa fa-star-o checked" data-id="1"></span>
-            <span class="fa fa-star-o checked" data-id="2"></span>
-            <span class="fa fa-star-o checked" data-id="3"></span>
+            <span class="fa fa-star checked" data-id="1"></span>
+            <span class="fa fa-star checked" data-id="2"></span>
+            <span class="fa fa-star checked" data-id="3"></span>
             <span class="fa fa-star-o" data-id="4"></span>
             <span class="fa fa-star-o" data-id="5"></span>
           </div>
@@ -481,9 +488,9 @@
           <p class="p-price">11 990 тг</p>
           <div class="p-stars">
             <p>7 отзывов</p>
-            <span class="fa fa-star-o checked" data-id="1"></span>
-            <span class="fa fa-star-o checked" data-id="2"></span>
-            <span class="fa fa-star-o checked" data-id="3"></span>
+            <span class="fa fa-star checked" data-id="1"></span>
+            <span class="fa fa-star checked" data-id="2"></span>
+            <span class="fa fa-star checked" data-id="3"></span>
             <span class="fa fa-star-o" data-id="4"></span>
             <span class="fa fa-star-o" data-id="5"></span>
           </div>
