@@ -69,7 +69,7 @@
 .show-catalogue {
 	z-index: 222222;
 	width: 100%;
-	background-color: #7dbb52;
+	background-color: #81d440;
 	display: none;
 	overflow: hidden;
 	padding-bottom: 20px;
@@ -112,7 +112,7 @@
 	align-items: center;
 	height: 210px;
 	flex: 0 0 25%;
-	background-color: #80c351;
+	background-color: #81d440;
 	background-repeat: no-repeat;
 	background-size: 40%;
 	transition: 0.2s all ease;
@@ -122,7 +122,7 @@
 .catalogue:nth-child(4),
 .catalogue:nth-child(5),
 .catalogue:nth-child(7) {
-	background-color: #7dbb52;
+	background-color: #73c930;
 }
 
 .catalogue span {
@@ -201,7 +201,7 @@
 	height: 180px;
 	margin-top: 20px;
 	position: relative;
-	background: linear-gradient(0deg,rgb(255, 255, 48) 0%, rgb(128, 195, 81) 30%);
+	background: linear-gradient(0deg,rgb(255, 255, 48) 0%, #81d440 30%);
 	margin-bottom: 20px;
 }
 
@@ -405,11 +405,12 @@
 .block p {
 	margin-bottom: 10px;
 	margin-top: 10px;
+	font-size: 18px;
 }
 
 .block a {
 	margin-bottom: 9px;
-	font-family: Light;
+	font-family: Medium;
 }
 
 .block a:last-child {

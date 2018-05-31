@@ -139,7 +139,7 @@
 	width: 15px;
 	height: 15px;
 	position: absolute;
-	background-color: #80c351;
+	background-color: #81d440;
 	border-radius: 7.5px;
 	font-size: 9px;
 	text-align: center;
@@ -196,7 +196,7 @@
 }
 .callback button {
 	text-transform: uppercase;
-	background-color: #80c351;
+	background-color: #81d440;
 	width: 150px;
 	height: 35px;
 	outline: 0;
@@ -217,7 +217,7 @@
 
 #third_row {
 	height: 60px;
-	background-color: #80c351;
+	background-color: #81d440;
 	border-bottom: 7px solid #313131;
 }
 #third_row .container {
