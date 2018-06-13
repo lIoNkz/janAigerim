@@ -4,6 +4,7 @@
   <title>Контакты</title>
   <link rel="stylesheet" href="/css/pages/contacts.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://api-maps.yandex.ru/2.1/?lang=en_US" type="text/javascript"></script>
 @endsection
   
 @section('content')
@@ -39,9 +40,10 @@
 4)Жиделей Байсын 95  (ТК Бекжан) сот: 8 707-338-95-91 -->
 
 	</div>
-	<div id="map">
-		<iframe src="https://yandex.kz/map-widget/v1/-/CBqPfLHS0B" width="100%" height="400" frameborder="0"></iframe>
-	</div>
+	<div id="map" style="width: 100%; height: 400px;"></div>
+<!-- 	<div id="map">
+	<iframe src="https://yandex.kz/map-widget/v1/-/CBqPfLHS0B" width="100%" height="400" frameborder="0"></iframe>
+</div> -->
 </div><!-- container -->
 @endsection
 
@@ -52,4 +54,36 @@
 
 @section('scripts')
 
+<script>
+	ymaps.ready(init);
+    var myMap,
+		myPlacemark,
+		myPlacemark2,
+		myPlacemark3,
+		myPlacemark4;
+
+    function init(){     
+        myMap = new ymaps.Map("map", {
+            center: [42.326284, 69.592901],
+            zoom: 12
+        });
+
+        myPlacemark2 = new ymaps.Placemark([42.306284, 69.592901], { hintContent: 'айтеке би'});
+    	myPlacemark3 = new ymaps.Placemark([42.297043, 69.543691], { hintContent: 'Жибек жолы'});
+    	myPlacemark4 = new ymaps.Placemark([42.348643, 69.529921], { hintContent: 'Жидели байсын'});
+    	myPlacemark = new ymaps.Placemark([42.312314, 69.630795], { hintContent: 'Бекет батыра'});
+            
+            myMap.geoObjects.add(myPlacemark);
+		    myMap.geoObjects.add(myPlacemark2);
+		    myMap.geoObjects.add(myPlacemark3);
+		    myMap.geoObjects.add(myPlacemark4);
+    }
+
+
+
+
+
+
+
+</script>
 @endsection

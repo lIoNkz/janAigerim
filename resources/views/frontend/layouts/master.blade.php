@@ -17,6 +17,7 @@
 	<link rel="stylesheet" href="/css/vendor/slick.min.css">
 	<!-- SEPARATE PAGESS' STYLES -->
 	@yield('head')
+	
 </head>
 <body>
 
