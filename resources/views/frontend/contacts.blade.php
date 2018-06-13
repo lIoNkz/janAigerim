@@ -68,10 +68,10 @@
             zoom: 12
         });
 
-        myPlacemark2 = new ymaps.Placemark([42.306284, 69.592901], { hintContent: 'айтеке би'});
-    	myPlacemark3 = new ymaps.Placemark([42.297043, 69.543691], { hintContent: 'Жибек жолы'});
+        myPlacemark2 = new ymaps.Placemark([42.306284, 69.592901], { hintContent: 'Айтеке би'});
+    	myPlacemark3 = new ymaps.Placemark([42.330722, 69.638885], { hintContent: 'Жибек жолы'});
     	myPlacemark4 = new ymaps.Placemark([42.348643, 69.529921], { hintContent: 'Жидели байсын'});
-    	myPlacemark = new ymaps.Placemark([42.312314, 69.630795], { hintContent: 'Бекет батыра'});
+    	myPlacemark = new ymaps.Placemark([42.312546, 69.629338], { hintContent: 'Бекет батыра'});
             
             myMap.geoObjects.add(myPlacemark);
 		    myMap.geoObjects.add(myPlacemark2);
