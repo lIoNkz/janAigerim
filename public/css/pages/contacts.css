@@ -3,7 +3,8 @@ main .container {
 }
 
 .contacts-row {
-	height: 400px;
+	min-height: 400px;
+	padding-bottom: 40px;
 	width: 100%;
 	padding-left: 5%;
 	text-transform: uppercase;

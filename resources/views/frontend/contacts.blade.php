@@ -12,12 +12,32 @@
 <div class="container">
 	<div class="contacts-row">
 		<h1>Контакты и наши адреса :</h1>
-		<p><span class="fa fa-map-marker"></span>г.Шымкент, Алматинская трасса 7/12</p>
-		<p><span class="fa fa-envelope-o"></span>support@mail.ru</p>
-		<p><span class="fa fa-mobile"></span>+7 777 000 00 00</p>
-		<p><span class="fa fa-mobile"></span>+7 777 111 11 11</p>
+		<p><span class="fa fa-map-marker"></span> ул. Бекет-Батыра 149 (бывшая Фурманова)</p>
+		<p><span class="fa fa-phone"></span>57-07-68</p>
+		<p><span class="fa fa-mobile"></span>8 707-903-10-32</p>
+		<p><span class="fa fa-mobile"></span>8 702-363-12-36</p>
+		<br>
+
+		<p><span class="fa fa-map-marker"></span>г.Шымкент, ул. Айтеке Би 116А (Старый город)</p>
+		<p><span class="fa fa-mobile"></span>8 705-375-40-94</p>
+<br>
+
+		<p><span class="fa fa-map-marker"></span>ул. Жибек-Жолы 30/3  (Коктем)</p>
+		<p><span class="fa fa-mobile"></span>8 702-649-59-17</p>
+<br>
+		<p><span class="fa fa-map-marker"></span>ул. Жиделей Байсын 95 (ТК Бекжан)</p>
+		<p><span class="fa fa-mobile"></span>8 707-338-95-91</p>
+<br>
+		<p><span class="fa fa-envelope-o"></span>zhana-aygerim@test.test</p>
+
 		<p><span class="fa fa-clock-o"></span>Пн-Пт: 10:00-19:00 Сб-Вс: 10:00-15:00</p>
-		<p><span class="fa fa-skype"></span>Jana-aygerim</p>
+
+
+<!-- 		1)Бекет-Батыра 149 (бывшая Фурманова) тел: 57-07-68, сот: 8 707-903-10-32, 8 702-363-12-36
+2)Айтеке Би 116А (Старый город) сот: 8 705-375-40-94
+3)Жибек-Жолы 30/3  (Коктем) сот: 8 702-649-59-17
+4)Жиделей Байсын 95  (ТК Бекжан) сот: 8 707-338-95-91 -->
+
 	</div>
 	<div id="map">
 		<iframe src="https://yandex.kz/map-widget/v1/-/CBqPfLHS0B" width="100%" height="400" frameborder="0"></iframe>
