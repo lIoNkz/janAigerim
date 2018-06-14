@@ -50,3 +50,5 @@ Route::get('/recommend', function () {
 Route::get('/chosen', function () {
 	return view('frontend.chosen');
 });
+
+Route::get('/{category}/{subcategory}', 'FrontendController@show_category');

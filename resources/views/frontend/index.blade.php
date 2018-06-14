@@ -53,378 +53,90 @@
 
 
       <div class="show-catalogue" id="c1">
-        <span class="js-close-catalogue">
-  
-        </span>
-        <p class="c-title">Категории раздела "Стройматериалы"</p>
+        <span class="js-close-catalogue"></span>
+        <p class="c-title">Категории раздела "Обои и Декор"</p>
         <div class="catalogue-content">
           <div class="block">
-            <p>Напольное покрытие</p>
-            <a href="/goods">Грязезащитные покрытия</a>
-            <a href="/goods">Доска паркетная</a>
-            <a href="/goods">Ковролин</a>
-            <a href="/goods">Ковры</a>
-            <a href="/goods">Ламинат</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Обои</p>
-            <a href="/goods">Бумажные обои</a>
-            <a href="/goods">Обои виниловые на бумаге</a>
-            <a href="/goods">Обои виниловые на флизелине</a>
-            <a href="/goods">Обои из натуральных материалов</a>
-            <a href="/goods">Пленка самоклеящаяся</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Плитка</p>
-            <a href="/goods">Бордюр</a>
-            <a href="/goods">Декор облицовочный</a>
-            <a href="/goods">Керамогранит</a>
-            <a href="/goods">Мозаика</a>
-            <a href="/goods">Плитка стеновая и напольная</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Порожки, раскладки, стыки</p>
-            <a href="/goods">Порожки</a>
-            <a href="/goods">Профиль для плитки</a>
-            <a href="/goods">Профиль крепежный и стыковочный</a>
-            <a href="/goods">Раскладка для плитки</a>
-            <a href="/goods">Стыки для ванн</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Потолочные покрытия</p>
-            <a href="/goods">Армстронг</a>
-            <a href="/goods">Декоративные элементы</a>
-            <a href="/goods">Плинтус потолочный</a>
-            <a href="/goods">Плитка потолочная</a>
-            <a href="/goods">Розетки</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Стеновые покрытия</p>
-            <a href="/goods">Комплектующие к подоконникам</a>
-            <a href="/goods">Панели стеновые МДФ</a>
-            <a href="/goods">Панели стеновые ПВХ</a>
-            <a href="/goods">Уголок арочный, отделочный</a>
-            <a href="/goods">Показать все</a>
+            <a href="/wallpaper/acrylic">Акриловые обои</a>
+            <a href="/wallpaper/selfglue">Самоклеющиеся обои</a>
+            <a href="/wallpaper/vinyl">Виниловые (супермоющиеся, протирающиеся)</a>
+            <a href="/wallpaper/pokrasku">Обои под покраску</a>
+            <a href="/wallpaper/steklo">Обои для армирования стен (стекло обои)</a>
+            <a href="/wallpaper/photo">Фотообои</a>
+            <a href="/wallpaper/freski">Фрески, модульное панно </a>
+            <a href="/wallpaper/zakaz">Заказные, эксклюзивные  обои </a>
           </div>
         </div>
       </div>
 
 
       <div class="show-catalogue" id="c2">
-        <span class="js-close-catalogue">
-  
-        </span>
-        <p class="c-title">Категории раздела "Отделочные материалы"</p>
+        <span class="js-close-catalogue"></span>
+        <p class="c-title">Категории раздела "Лаки и краски"</p>
         <div class="catalogue-content">
           <div class="block">
-            <p>Напольное покрытие</p>
-            <a href="/goods">Грязезащитные покрытия</a>
-            <a href="/goods">Доска паркетная</a>
-            <a href="/goods">Ковролин</a>
-            <a href="/goods">Ковры</a>
-            <a href="/goods">Ламинат</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Обои</p>
-            <a href="/goods">Бумажные обои</a>
-            <a href="/goods">Обои виниловые на бумаге</a>
-            <a href="/goods">Обои виниловые на флизелине</a>
-            <a href="/goods">Обои из натуральных материалов</a>
-            <a href="/goods">Пленка самоклеящаяся</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Плитка</p>
-            <a href="/goods">Бордюр</a>
-            <a href="/goods">Декор облицовочный</a>
-            <a href="/goods">Керамогранит</a>
-            <a href="/goods">Мозаика</a>
-            <a href="/goods">Плитка стеновая и напольная</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Порожки, раскладки, стыки</p>
-            <a href="/goods">Порожки</a>
-            <a href="/goods">Профиль для плитки</a>
-            <a href="/goods">Профиль крепежный и стыковочный</a>
-            <a href="/goods">Раскладка для плитки</a>
-            <a href="/goods">Стыки для ванн</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Потолочные покрытия</p>
-            <a href="/goods">Армстронг</a>
-            <a href="/goods">Декоративные элементы</a>
-            <a href="/goods">Плинтус потолочный</a>
-            <a href="/goods">Плитка потолочная</a>
-            <a href="/goods">Розетки</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Стеновые покрытия</p>
-            <a href="/goods">Комплектующие к подоконникам</a>
-            <a href="/goods">Панели стеновые МДФ</a>
-            <a href="/goods">Панели стеновые ПВХ</a>
-            <a href="/goods">Уголок арочный, отделочный</a>
-            <a href="/goods">Показать все</a>
+            <a href="/paint/decor-kraski">Декоратиные краски</a>
+            <a href="/paint/vodoemulsia">Водоимульсия(фасадная  и для внутренней отделки)</a>
+            <a href="/paint/laki">Лаки</a>
+            <a href="/paint/kraski">Краски(радиаторные ,напольные ,палубные и т.д)</a>
+            <a href="/paint/decor-shtuki">Декаративные штукатурки( леонардо, виницианка и т.д)</a>
           </div>
         </div>
       </div>
 
 
       <div class="show-catalogue" id="c3">
-        <span class="js-close-catalogue">
-  
-        </span>
-        <p class="c-title">Категории раздела "САнтехника, отопление и водоснабжение"</p>
+        <span class="js-close-catalogue"></span>
+        <p class="c-title">Категории раздела "Напольные покрытия"</p>
         <div class="catalogue-content">
           <div class="block">
-            <p>Напольное покрытие</p>
-            <a href="/goods">Грязезащитные покрытия</a>
-            <a href="/goods">Доска паркетная</a>
-            <a href="/goods">Ковролин</a>
-            <a href="/goods">Ковры</a>
-            <a href="/goods">Ламинат</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Обои</p>
-            <a href="/goods">Бумажные обои</a>
-            <a href="/goods">Обои виниловые на бумаге</a>
-            <a href="/goods">Обои виниловые на флизелине</a>
-            <a href="/goods">Обои из натуральных материалов</a>
-            <a href="/goods">Пленка самоклеящаяся</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Плитка</p>
-            <a href="/goods">Бордюр</a>
-            <a href="/goods">Декор облицовочный</a>
-            <a href="/goods">Керамогранит</a>
-            <a href="/goods">Мозаика</a>
-            <a href="/goods">Плитка стеновая и напольная</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Порожки, раскладки, стыки</p>
-            <a href="/goods">Порожки</a>
-            <a href="/goods">Профиль для плитки</a>
-            <a href="/goods">Профиль крепежный и стыковочный</a>
-            <a href="/goods">Раскладка для плитки</a>
-            <a href="/goods">Стыки для ванн</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Потолочные покрытия</p>
-            <a href="/goods">Армстронг</a>
-            <a href="/goods">Декоративные элементы</a>
-            <a href="/goods">Плинтус потолочный</a>
-            <a href="/goods">Плитка потолочная</a>
-            <a href="/goods">Розетки</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Стеновые покрытия</p>
-            <a href="/goods">Комплектующие к подоконникам</a>
-            <a href="/goods">Панели стеновые МДФ</a>
-            <a href="/goods">Панели стеновые ПВХ</a>
-            <a href="/goods">Уголок арочный, отделочный</a>
-            <a href="/goods">Показать все</a>
+            <a href="/floor-covering/laminat">Ламинат</a>
+            <a href="/floor-covering/kovrolan">Ковролан</a>
+            <a href="/floor-covering/dorozhki">Дорожки</a>
+            <a href="/floor-covering/linolium">Линолиум</a>
           </div>
         </div>
       </div>
 
 
       <div class="show-catalogue" id="c4">
-        <span class="js-close-catalogue">
-  
-        </span>
-        <p class="c-title">Категории раздела "Электрика и освещение"</p>
+        <span class="js-close-catalogue"></span>
+        <p class="c-title">Категории раздела "Потолочка"</p>
         <div class="catalogue-content">
           <div class="block">
-            <p>Напольное покрытие</p>
-            <a href="/goods">Грязезащитные покрытия</a>
-            <a href="/goods">Доска паркетная</a>
-            <a href="/goods">Ковролин</a>
-            <a href="/goods">Ковры</a>
-            <a href="/goods">Ламинат</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Обои</p>
-            <a href="/goods">Бумажные обои</a>
-            <a href="/goods">Обои виниловые на бумаге</a>
-            <a href="/goods">Обои виниловые на флизелине</a>
-            <a href="/goods">Обои из натуральных материалов</a>
-            <a href="/goods">Пленка самоклеящаяся</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Плитка</p>
-            <a href="/goods">Бордюр</a>
-            <a href="/goods">Декор облицовочный</a>
-            <a href="/goods">Керамогранит</a>
-            <a href="/goods">Мозаика</a>
-            <a href="/goods">Плитка стеновая и напольная</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Порожки, раскладки, стыки</p>
-            <a href="/goods">Порожки</a>
-            <a href="/goods">Профиль для плитки</a>
-            <a href="/goods">Профиль крепежный и стыковочный</a>
-            <a href="/goods">Раскладка для плитки</a>
-            <a href="/goods">Стыки для ванн</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Потолочные покрытия</p>
-            <a href="/goods">Армстронг</a>
-            <a href="/goods">Декоративные элементы</a>
-            <a href="/goods">Плинтус потолочный</a>
-            <a href="/goods">Плитка потолочная</a>
-            <a href="/goods">Розетки</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Стеновые покрытия</p>
-            <a href="/goods">Комплектующие к подоконникам</a>
-            <a href="/goods">Панели стеновые МДФ</a>
-            <a href="/goods">Панели стеновые ПВХ</a>
-            <a href="/goods">Уголок арочный, отделочный</a>
-            <a href="/goods">Показать все</a>
+            <a href="/ceiling/galteli">Галтели(пенополистерол,полиуретан)</a>
+            <a href="/ceiling/moldingi">Молдинги</a>
+            <a href="/ceiling/razetki">Разетки</a>
+            <a href="/ceiling/pilyastry">Пилястры</a>
+            <a href="/ceiling/bagety">Багеты</a>
           </div>
         </div>
       </div>
 
 
       <div class="show-catalogue" id="c5">
-        <span class="js-close-catalogue">
-  
-        </span>
-        <p class="c-title">Категории раздела "Геоматериалы"</p>
+        <span class="js-close-catalogue"></span>
+        <p class="c-title">Категории раздела "Плинтусы"</p>
         <div class="catalogue-content">
           <div class="block">
-            <p>Напольное покрытие</p>
-            <a href="/goods">Грязезащитные покрытия</a>
-            <a href="/goods">Доска паркетная</a>
-            <a href="/goods">Ковролин</a>
-            <a href="/goods">Ковры</a>
-            <a href="/goods">Ламинат</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Обои</p>
-            <a href="/goods">Бумажные обои</a>
-            <a href="/goods">Обои виниловые на бумаге</a>
-            <a href="/goods">Обои виниловые на флизелине</a>
-            <a href="/goods">Обои из натуральных материалов</a>
-            <a href="/goods">Пленка самоклеящаяся</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Плитка</p>
-            <a href="/goods">Бордюр</a>
-            <a href="/goods">Декор облицовочный</a>
-            <a href="/goods">Керамогранит</a>
-            <a href="/goods">Мозаика</a>
-            <a href="/goods">Плитка стеновая и напольная</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Порожки, раскладки, стыки</p>
-            <a href="/goods">Порожки</a>
-            <a href="/goods">Профиль для плитки</a>
-            <a href="/goods">Профиль крепежный и стыковочный</a>
-            <a href="/goods">Раскладка для плитки</a>
-            <a href="/goods">Стыки для ванн</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Потолочные покрытия</p>
-            <a href="/goods">Армстронг</a>
-            <a href="/goods">Декоративные элементы</a>
-            <a href="/goods">Плинтус потолочный</a>
-            <a href="/goods">Плитка потолочная</a>
-            <a href="/goods">Розетки</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Стеновые покрытия</p>
-            <a href="/goods">Комплектующие к подоконникам</a>
-            <a href="/goods">Панели стеновые МДФ</a>
-            <a href="/goods">Панели стеновые ПВХ</a>
-            <a href="/goods">Уголок арочный, отделочный</a>
-            <a href="/goods">Показать все</a>
+            <a href="/plinth/plintus">Плинтусы</a>
+            <a href="/plinth/porozhki">Порожки</a>
+            <a href="/plinth/ugolki">Уголки</a>
+            <a href="/plinth/raskladki">Раскладки</a>
+            <a href="/plinth/genezius">Генезиус</a>
           </div>
         </div>
       </div>
 
 
       <div class="show-catalogue" id="c6">
-        <span class="js-close-catalogue">
-  
-        </span>
-        <p class="c-title">Категории раздела "Инструменты и оборудования"</p>
+        <span class="js-close-catalogue"></span>
+        <p class="c-title">Категории раздела "Клеи и жидкие гвозди"</p>
         <div class="catalogue-content">
           <div class="block">
-            <p>Напольное покрытие</p>
-            <a href="/goods">Грязезащитные покрытия</a>
-            <a href="/goods">Доска паркетная</a>
-            <a href="/goods">Ковролин</a>
-            <a href="/goods">Ковры</a>
-            <a href="/goods">Ламинат</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Обои</p>
-            <a href="/goods">Бумажные обои</a>
-            <a href="/goods">Обои виниловые на бумаге</a>
-            <a href="/goods">Обои виниловые на флизелине</a>
-            <a href="/goods">Обои из натуральных материалов</a>
-            <a href="/goods">Пленка самоклеящаяся</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Плитка</p>
-            <a href="/goods">Бордюр</a>
-            <a href="/goods">Декор облицовочный</a>
-            <a href="/goods">Керамогранит</a>
-            <a href="/goods">Мозаика</a>
-            <a href="/goods">Плитка стеновая и напольная</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Порожки, раскладки, стыки</p>
-            <a href="/goods">Порожки</a>
-            <a href="/goods">Профиль для плитки</a>
-            <a href="/goods">Профиль крепежный и стыковочный</a>
-            <a href="/goods">Раскладка для плитки</a>
-            <a href="/goods">Стыки для ванн</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Потолочные покрытия</p>
-            <a href="/goods">Армстронг</a>
-            <a href="/goods">Декоративные элементы</a>
-            <a href="/goods">Плинтус потолочный</a>
-            <a href="/goods">Плитка потолочная</a>
-            <a href="/goods">Розетки</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Стеновые покрытия</p>
-            <a href="/goods">Комплектующие к подоконникам</a>
-            <a href="/goods">Панели стеновые МДФ</a>
-            <a href="/goods">Панели стеновые ПВХ</a>
-            <a href="/goods">Уголок арочный, отделочный</a>
-            <a href="/goods">Показать все</a>
+            <a href="/glue/oboi">Обоиный клей</a>
+            <a href="/glue/potochki">Клей для поточки</a>
+            <a href="/glue/gvozdi">Жидкие гвозди</a>
           </div>
         </div>
       </div>
@@ -434,60 +146,14 @@
         <span class="js-close-catalogue">
   
         </span>
-        <p class="c-title">Категории раздела "Дача и сад"</p>
+        <p class="c-title">Категории раздела "Мелочевка"</p>
         <div class="catalogue-content">
           <div class="block">
-            <p>Напольное покрытие</p>
-            <a href="/goods">Грязезащитные покрытия</a>
-            <a href="/goods">Доска паркетная</a>
-            <a href="/goods">Ковролин</a>
-            <a href="/goods">Ковры</a>
-            <a href="/goods">Ламинат</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Обои</p>
-            <a href="/goods">Бумажные обои</a>
-            <a href="/goods">Обои виниловые на бумаге</a>
-            <a href="/goods">Обои виниловые на флизелине</a>
-            <a href="/goods">Обои из натуральных материалов</a>
-            <a href="/goods">Пленка самоклеящаяся</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Плитка</p>
-            <a href="/goods">Бордюр</a>
-            <a href="/goods">Декор облицовочный</a>
-            <a href="/goods">Керамогранит</a>
-            <a href="/goods">Мозаика</a>
-            <a href="/goods">Плитка стеновая и напольная</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Порожки, раскладки, стыки</p>
-            <a href="/goods">Порожки</a>
-            <a href="/goods">Профиль для плитки</a>
-            <a href="/goods">Профиль крепежный и стыковочный</a>
-            <a href="/goods">Раскладка для плитки</a>
-            <a href="/goods">Стыки для ванн</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Потолочные покрытия</p>
-            <a href="/goods">Армстронг</a>
-            <a href="/goods">Декоративные элементы</a>
-            <a href="/goods">Плинтус потолочный</a>
-            <a href="/goods">Плитка потолочная</a>
-            <a href="/goods">Розетки</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Стеновые покрытия</p>
-            <a href="/goods">Комплектующие к подоконникам</a>
-            <a href="/goods">Панели стеновые МДФ</a>
-            <a href="/goods">Панели стеновые ПВХ</a>
-            <a href="/goods">Уголок арочный, отделочный</a>
-            <a href="/goods">Показать все</a>
+            <a href="/misc/kistochki">Кисточки</a>
+            <a href="/misc/valiki">Валики</a>
+            <a href="/misc/reshotki">Решетки (радиаторные, вентиляционные)</a>
+            <a href="/misc/paneli">Панели пластиковые </a>
+            <a href="/misc/nakleiki">Наклейки  джекоративные</a>
           </div>
         </div>
       </div>
@@ -497,60 +163,15 @@
         <span class="js-close-catalogue">
   
         </span>
-        <p class="c-title">Категории раздела "Акции"</p>
+        <p class="c-title">Категории раздела "Интрументы"</p>
         <div class="catalogue-content">
           <div class="block">
-            <p>Напольное покрытие</p>
-            <a href="/goods">Грязезащитные покрытия</a>
-            <a href="/goods">Доска паркетная</a>
-            <a href="/goods">Ковролин</a>
-            <a href="/goods">Ковры</a>
-            <a href="/goods">Ламинат</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Обои</p>
-            <a href="/goods">Бумажные обои</a>
-            <a href="/goods">Обои виниловые на бумаге</a>
-            <a href="/goods">Обои виниловые на флизелине</a>
-            <a href="/goods">Обои из натуральных материалов</a>
-            <a href="/goods">Пленка самоклеящаяся</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Плитка</p>
-            <a href="/goods">Бордюр</a>
-            <a href="/goods">Декор облицовочный</a>
-            <a href="/goods">Керамогранит</a>
-            <a href="/goods">Мозаика</a>
-            <a href="/goods">Плитка стеновая и напольная</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Порожки, раскладки, стыки</p>
-            <a href="/goods">Порожки</a>
-            <a href="/goods">Профиль для плитки</a>
-            <a href="/goods">Профиль крепежный и стыковочный</a>
-            <a href="/goods">Раскладка для плитки</a>
-            <a href="/goods">Стыки для ванн</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Потолочные покрытия</p>
-            <a href="/goods">Армстронг</a>
-            <a href="/goods">Декоративные элементы</a>
-            <a href="/goods">Плинтус потолочный</a>
-            <a href="/goods">Плитка потолочная</a>
-            <a href="/goods">Розетки</a>
-            <a href="/goods">Показать все</a>
-          </div>
-          <div class="block">
-            <p>Стеновые покрытия</p>
-            <a href="/goods">Комплектующие к подоконникам</a>
-            <a href="/goods">Панели стеновые МДФ</a>
-            <a href="/goods">Панели стеновые ПВХ</a>
-            <a href="/goods">Уголок арочный, отделочный</a>
-            <a href="/goods">Показать все</a>
+            <a href="/tools/otvertki">Отвертки</a>
+            <a href="/tools/ploskogubcy">Плоскогубцы</a>
+            <a href="/tools/kovrolin">Ковролин</a>
+            <a href="/tools/kusachki">Кусачки</a>
+            <a href="/tools/uroven">Уровень</a>
+            <a href="/tools/shpatel">Шпатель</a>
           </div>
         </div>
       </div>
@@ -560,14 +181,14 @@
 
 
       <div class="catalogue-wrap">
-        <a href="#spec" class="catalogue" data-id="c1"><div></div><span>Стройматериалы</span></a>
-        <a href="#spec" class="catalogue" data-id="c2"><div></div><span>Отделочные материалы</span></a>
-        <a href="#spec" class="catalogue" data-id="c3"><div></div><span>Сантехника, отопление и водоснабжение</span></a>
-        <a href="#spec" class="catalogue" data-id="c4"><div></div><span>Электрика и освещение</span></a>
-        <a href="#spec" class="catalogue" data-id="c5"><div></div><span>Геоматериалы</span></a>
-        <a href="#spec" class="catalogue" data-id="c6"><div></div><span>Инструмент и оборудование</span></a>
-        <a href="#spec" class="catalogue" data-id="c7"><div></div><span>Дача и сад</span></a>
-        <a href="#spec" class="catalogue" data-id="c8"><div></div><span>Акции</span></a>
+        <a href="#spec" class="catalogue" data-id="c1"><div></div><span>Обои и декор</span></a>
+        <a href="#spec" class="catalogue" data-id="c2"><div></div><span>Лаки и краски</span></a>
+        <a href="#spec" class="catalogue" data-id="c3"><div></div><span>Напольные покрытия</span></a>
+        <a href="#spec" class="catalogue" data-id="c4"><div></div><span>Потолочка</span></a>
+        <a href="#spec" class="catalogue" data-id="c5"><div></div><span>Плинтусы</span></a>
+        <a href="#spec" class="catalogue" data-id="c6"><div></div><span>Клеи и жидкие гвозди</span></a>
+        <a href="#spec" class="catalogue" data-id="c7"><div></div><span>Мелочевка</span></a>
+        <a href="#spec" class="catalogue" data-id="c8"><div></div><span>Интсрументы</span></a>
       </div>
   </div>
 <!-- end of second-row -->

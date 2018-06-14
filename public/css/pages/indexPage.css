@@ -293,23 +293,23 @@
 }
 
 
-.catalogue:nth-child(1){background-image: url(../../img/icon_1.png);background-size: 47%; background-position: center 30px;}
-.catalogue:nth-child(2){background-image: url(../../img/icon_2.png);background-size: 48%; background-position: center 30px;}
-.catalogue:nth-child(3){background-image: url(../../img/icon_3.png);background-size: 46%; background-position: center 20px;}
-.catalogue:nth-child(4){background-image: url(../../img/icon_4.png);background-size: 52%; background-position: center 28px;}
-.catalogue:nth-child(5){background-image: url(../../img/icon_5.png);background-size: 38%; background-position: center 35px;}
-.catalogue:nth-child(6){background-image: url(../../img/icon_6.png);background-size: 41%; background-position: center 40px;}
-.catalogue:nth-child(7){background-image: url(../../img/icon_7.png);background-size: 48%; background-position: center 25px;}
-.catalogue:nth-child(8){background-image: url(../../img/icon_8.png);background-size: 43%; background-position: center 25px;}
+.catalogue:nth-child(1){background-image: url(../../img/icon_1.png);background-size: 50%; background-position: center 30px;}
+.catalogue:nth-child(2){background-image: url(../../img/icon_2.png);background-size: 45%; background-position: center 30px;}
+.catalogue:nth-child(3){background-image: url(../../img/icon_3.png);background-size: 48%; background-position: center 40px;}
+.catalogue:nth-child(4){background-image: url(../../img/icon_4.png);background-size: 50%; background-position: center 30px;}
+.catalogue:nth-child(5){background-image: url(../../img/icon_5.png);background-size: 50%; background-position: center 30px;}
+.catalogue:nth-child(6){background-image: url(../../img/icon_6.png);background-size: 43%; background-position: center 30px;}
+.catalogue:nth-child(7){background-image: url(../../img/icon_7.png);background-size: 46%; background-position: center 30px;}
+.catalogue:nth-child(8){background-image: url(../../img/icon_8.png);background-size: 41%; background-position: center 30px;}
 
-.catalogue:nth-child(1):hover {background-size: 50%;}
-.catalogue:nth-child(2):hover {background-size: 50%;}
-.catalogue:nth-child(3):hover {background-size: 48%;}
-.catalogue:nth-child(4):hover {background-size: 54%;}
-.catalogue:nth-child(5):hover {background-size: 40%;}
-.catalogue:nth-child(6):hover {background-size: 43%;}
-.catalogue:nth-child(7):hover {background-size: 50%;}
-.catalogue:nth-child(8):hover {background-size: 45%;}
+.catalogue:nth-child(1):hover {background-size: 52%;}
+.catalogue:nth-child(2):hover {background-size: 47%;}
+.catalogue:nth-child(3):hover {background-size: 50%;}
+.catalogue:nth-child(4):hover {background-size: 52%;}
+.catalogue:nth-child(5):hover {background-size: 52%;}
+.catalogue:nth-child(6):hover {background-size: 45%;}
+.catalogue:nth-child(7):hover {background-size: 48%;}
+.catalogue:nth-child(8):hover {background-size: 43%;}
 
 
 
@@ -317,7 +317,7 @@
 
 .show-cat {
 	width: 100%;
-	min-height: calc(100% - 40px);
+	min-height: 420px;
 	animation: 0.4s shows-cat linear;
 	display: block;
 }
@@ -393,7 +393,7 @@
 }
 
 .catalogue-content .block {
-	flex: 0 0 33%;
+	flex: 0 0 60%;
 	margin-bottom: 20px;
 }
 
@@ -411,13 +411,15 @@
 .block a {
 	margin-bottom: 9px;
 	font-family: Medium;
+	font-size: 20px;
 }
 
-.block a:last-child {
-	font-family: Bold;
+.block a:hover {
+	color: #000;
 }
 
-.block a:last-child:after {
+
+/* .block a:last-child:after {
     content: "";
     width: 15px;
     height: 12px;
@@ -425,19 +427,19 @@
     background: url(../../img/arrow.png) no-repeat;
     margin-left: 5px;
 	
-}
+} */
 .show-catalogue {
 	background-repeat: no-repeat;
 	background-position: 100% 20%;
 }
-.show-catalogue:nth-child(2){background-image: url(../../img/white-bg.png), url(../../img/icon_1.png);background-size: 37%; background-position: 122% center;}
-.show-catalogue:nth-child(3){background-image: url(../../img/white-bg.png), url(../../img/icon_2.png);background-size: 40%; background-position: 130% center;}
-.show-catalogue:nth-child(4){background-image: url(../../img/white-bg.png), url(../../img/icon_3.png);background-size: 32%; background-position: 114% center;}
-.show-catalogue:nth-child(5){background-image: url(../../img/white-bg.png), url(../../img/icon_4.png);background-size: 39%; background-position: 132% center;}
-.show-catalogue:nth-child(6){background-image: url(../../img/white-bg.png), url(../../img/icon_5.png);background-size: 33%; background-position: 126% center;}
-.show-catalogue:nth-child(7){background-image: url(../../img/white-bg.png), url(../../img/icon_6.png);background-size: 35%; background-position: 130% center;}
-.show-catalogue:nth-child(8){background-image: url(../../img/white-bg.png), url(../../img/icon_7.png);background-size: 40%; background-position: 130% center;}
-.show-catalogue:nth-child(9){background-image: url(../../img/white-bg.png), url(../../img/icon_8.png);background-size: 34%; background-position: 130% center;}
+.show-catalogue:nth-child(2){background-image: url(../../img/white-bg.png), url(../../img/icon_1.png);background-size: 37%; background-position: 115% center;}
+.show-catalogue:nth-child(3){background-image: url(../../img/white-bg.png), url(../../img/icon_2.png);background-size: 37%; background-position: 115% center;}
+.show-catalogue:nth-child(4){background-image: url(../../img/white-bg.png), url(../../img/icon_3.png);background-size: 36%; background-position: 114% center;}
+.show-catalogue:nth-child(5){background-image: url(../../img/white-bg.png), url(../../img/icon_4.png);background-size: 39%; background-position: 105% center;}
+.show-catalogue:nth-child(6){background-image: url(../../img/white-bg.png), url(../../img/icon_5.png);background-size: 33%; background-position: 105% center;}
+.show-catalogue:nth-child(7){background-image: url(../../img/white-bg.png), url(../../img/icon_6.png);background-size: 35%; background-position: 110% center;}
+.show-catalogue:nth-child(8){background-image: url(../../img/white-bg.png), url(../../img/icon_7.png);background-size: 40%; background-position: 115% center;}
+.show-catalogue:nth-child(9){background-image: url(../../img/white-bg.png), url(../../img/icon_8.png);background-size: 34%; background-position: 115% center;}
 
 .catalogue-wrap-hide {
 	position: absolute;
