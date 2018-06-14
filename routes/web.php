@@ -52,3 +52,7 @@ Route::get('/chosen', function () {
 });
 
 Route::get('/{category}/{subcategory}', 'FrontendController@show_category');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
