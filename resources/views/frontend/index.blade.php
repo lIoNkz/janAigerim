@@ -57,14 +57,14 @@
         <p class="c-title">Категории раздела "Обои и Декор"</p>
         <div class="catalogue-content">
           <div class="block">
-            <a href="/wallpaper/acrylic">Акриловые обои</a>
-            <a href="/wallpaper/selfglue">Самоклеющиеся обои</a>
-            <a href="/wallpaper/vinyl">Виниловые (супермоющиеся, протирающиеся)</a>
-            <a href="/wallpaper/pokrasku">Обои под покраску</a>
-            <a href="/wallpaper/steklo">Обои для армирования стен (стекло обои)</a>
-            <a href="/wallpaper/photo">Фотообои</a>
-            <a href="/wallpaper/freski">Фрески, модульное панно </a>
-            <a href="/wallpaper/zakaz">Заказные, эксклюзивные  обои </a>
+            <a href="/shop/wallpaper/acrylic">Акриловые обои</a>
+            <a href="/shop/wallpaper/selfglue">Самоклеющиеся обои</a>
+            <a href="/shop/wallpaper/vinyl">Виниловые (супермоющиеся, протирающиеся)</a>
+            <a href="/shop/wallpaper/pokrasku">Обои под покраску</a>
+            <a href="/shop/wallpaper/steklo">Обои для армирования стен (стекло обои)</a>
+            <a href="/shop/wallpaper/photo">Фотообои</a>
+            <a href="/shop/wallpaper/freski">Фрески, модульное панно </a>
+            <a href="/shop/wallpaper/zakaz">Заказные, эксклюзивные  обои </a>
           </div>
         </div>
       </div>
@@ -75,11 +75,11 @@
         <p class="c-title">Категории раздела "Лаки и краски"</p>
         <div class="catalogue-content">
           <div class="block">
-            <a href="/paint/decor-kraski">Декоратиные краски</a>
-            <a href="/paint/vodoemulsia">Водоимульсия(фасадная  и для внутренней отделки)</a>
-            <a href="/paint/laki">Лаки</a>
-            <a href="/paint/kraski">Краски(радиаторные ,напольные ,палубные и т.д)</a>
-            <a href="/paint/decor-shtuki">Декаративные штукатурки( леонардо, виницианка и т.д)</a>
+            <a href="/shop/paint/decor-kraski">Декоратиные краски</a>
+            <a href="/shop/paint/vodoemulsia">Водоимульсия(фасадная  и для внутренней отделки)</a>
+            <a href="/shop/paint/laki">Лаки</a>
+            <a href="/shop/paint/kraski">Краски(радиаторные ,напольные ,палубные и т.д)</a>
+            <a href="/shop/paint/decor-shtuki">Декаративные штукатурки( леонардо, виницианка и т.д)</a>
           </div>
         </div>
       </div>
@@ -90,10 +90,10 @@
         <p class="c-title">Категории раздела "Напольные покрытия"</p>
         <div class="catalogue-content">
           <div class="block">
-            <a href="/floor-covering/laminat">Ламинат</a>
-            <a href="/floor-covering/kovrolan">Ковролан</a>
-            <a href="/floor-covering/dorozhki">Дорожки</a>
-            <a href="/floor-covering/linolium">Линолиум</a>
+            <a href="/shop/floor-covering/laminat">Ламинат</a>
+            <a href="/shop/floor-covering/kovrolan">Ковролан</a>
+            <a href="/shop/floor-covering/dorozhki">Дорожки</a>
+            <a href="/shop/floor-covering/linolium">Линолиум</a>
           </div>
         </div>
       </div>
@@ -104,11 +104,11 @@
         <p class="c-title">Категории раздела "Потолочка"</p>
         <div class="catalogue-content">
           <div class="block">
-            <a href="/ceiling/galteli">Галтели(пенополистерол,полиуретан)</a>
-            <a href="/ceiling/moldingi">Молдинги</a>
-            <a href="/ceiling/razetki">Разетки</a>
-            <a href="/ceiling/pilyastry">Пилястры</a>
-            <a href="/ceiling/bagety">Багеты</a>
+            <a href="/shop/ceiling/galteli">Галтели(пенополистерол,полиуретан)</a>
+            <a href="/shop/ceiling/moldingi">Молдинги</a>
+            <a href="/shop/ceiling/razetki">Разетки</a>
+            <a href="/shop/ceiling/pilyastry">Пилястры</a>
+            <a href="/shop/ceiling/bagety">Багеты</a>
           </div>
         </div>
       </div>
@@ -119,11 +119,11 @@
         <p class="c-title">Категории раздела "Плинтусы"</p>
         <div class="catalogue-content">
           <div class="block">
-            <a href="/plinth/plintus">Плинтусы</a>
-            <a href="/plinth/porozhki">Порожки</a>
-            <a href="/plinth/ugolki">Уголки</a>
-            <a href="/plinth/raskladki">Раскладки</a>
-            <a href="/plinth/genezius">Генезиус</a>
+            <a href="/shop/plinth/plintus">Плинтусы</a>
+            <a href="/shop/plinth/porozhki">Порожки</a>
+            <a href="/shop/plinth/ugolki">Уголки</a>
+            <a href="/shop/plinth/raskladki">Раскладки</a>
+            <a href="/shop/plinth/genezius">Генезиус</a>
           </div>
         </div>
       </div>
@@ -134,9 +134,9 @@
         <p class="c-title">Категории раздела "Клеи и жидкие гвозди"</p>
         <div class="catalogue-content">
           <div class="block">
-            <a href="/glue/oboi">Обоиный клей</a>
-            <a href="/glue/potochki">Клей для поточки</a>
-            <a href="/glue/gvozdi">Жидкие гвозди</a>
+            <a href="/shop/glue/oboi">Обоиный клей</a>
+            <a href="/shop/glue/potochki">Клей для поточки</a>
+            <a href="/shop/glue/gvozdi">Жидкие гвозди</a>
           </div>
         </div>
       </div>
@@ -149,11 +149,11 @@
         <p class="c-title">Категории раздела "Мелочевка"</p>
         <div class="catalogue-content">
           <div class="block">
-            <a href="/misc/kistochki">Кисточки</a>
-            <a href="/misc/valiki">Валики</a>
-            <a href="/misc/reshotki">Решетки (радиаторные, вентиляционные)</a>
-            <a href="/misc/paneli">Панели пластиковые </a>
-            <a href="/misc/nakleiki">Наклейки  джекоративные</a>
+            <a href="/shop/misc/kistochki">Кисточки</a>
+            <a href="/shop/misc/valiki">Валики</a>
+            <a href="/shop/misc/reshotki">Решетки (радиаторные, вентиляционные)</a>
+            <a href="/shop/misc/paneli">Панели пластиковые </a>
+            <a href="/shop/misc/nakleiki">Наклейки  джекоративные</a>
           </div>
         </div>
       </div>
@@ -166,12 +166,12 @@
         <p class="c-title">Категории раздела "Интрументы"</p>
         <div class="catalogue-content">
           <div class="block">
-            <a href="/tools/otvertki">Отвертки</a>
-            <a href="/tools/ploskogubcy">Плоскогубцы</a>
-            <a href="/tools/kovrolin">Ковролин</a>
-            <a href="/tools/kusachki">Кусачки</a>
-            <a href="/tools/uroven">Уровень</a>
-            <a href="/tools/shpatel">Шпатель</a>
+            <a href="/shop/tools/otvertki">Отвертки</a>
+            <a href="/shop/tools/ploskogubcy">Плоскогубцы</a>
+            <a href="/shop/tools/kovrolin">Ковролин</a>
+            <a href="/shop/tools/kusachki">Кусачки</a>
+            <a href="/shop/tools/uroven">Уровень</a>
+            <a href="/shop/tools/shpatel">Шпатель</a>
           </div>
         </div>
       </div>

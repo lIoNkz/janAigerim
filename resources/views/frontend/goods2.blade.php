@@ -1,7 +1,7 @@
 @extends('frontend.layouts.master')
 
 @section('head')
-  <title>{{ $subcategory_name }}</title>
+  <title>{{ $category_name }}</title>
   <link rel="stylesheet" href="/css/pages/goods.css">
   <link rel="stylesheet" href="/css/pages/delivery.guarantee.product-popup.css">
   <link rel="stylesheet" href="/css/vendor/ion.rangeSlider.css">
@@ -16,10 +16,9 @@
   <div class="title-row">
     <p class="breadcrumbs">
       <a href="#">Главная > </a>
-      <a href="/shop/{{ $category_slug }}">{{ $category_name }} ></a>
-      <a href="/shop/{{ $category_slug }}/{{ $subcategory_slug }}">{{ $subcategory_name }}</a>
+      <a href="/shop/{{ $category_slug }}">{{ $category_name }}</a>
     </p>
-    <h1 class="main-title">{{ $subcategory_name }}</h1>
+    <h1 class="main-title">{{ $category_name }}</h1>
     <div class="filtering">
       <div class="buttons">
         <span>Поиск по фильтру</span>
