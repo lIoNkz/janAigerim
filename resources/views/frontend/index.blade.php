@@ -11,37 +11,37 @@
 <div class="container">
   <div class="first-row">
     <div class="js-slider-left">
-      <div>
-        <p>Болгарки</p>
+      <div style="background-image: url(/img/s1-2.jpg); background-size:100%;">
+        <p>Акриловые обои</p>
         <p>от 5000 тг.</p>
       </div>
-      <div>
-        <p>Болгарки</p>
-        <p>от 70000 тг.</p>
+      <div style="background-image: url(/img/s1-3.jpg); background-size:100%;">
+        <p style="color: #FFF;">Флизелиновые обои</p>
+        <p style="color: #fff; margin-top: -20px;">от 900000 тг.</p>
       </div>
-      <div>
-        <p>Болгарки</p>
+      <div style="background-image: url(/img/s1-1.jpg); background-size:100%;">
+        <p>Фотообои</p>
         <p>от 900000 тг.</p>
       </div>
     </div>
     <div class="js-slider-center">
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
+      <div style="background-image: url(/img/s2-4.jpg); background-size:100%"></div>
+      <div style="background-image: url(/img/s2-2.jpg); background-size:100%"></div>
+      <div style="background-image: url(/img/s2-3.jpg); background-size:100%"></div>
+      <div style="background-image: url(/img/s2-1.jpg); background-size:100%"></div>
     </div>
     <div class="js-slider-right">
-      <div>
-        <p>Набор ключей</p>
+      <div style="background-image: url(/img/s1-1.jpg); background-size:100%;">
+        <p>Фотообои</p>
         <p>от 5000 тг.</p>
       </div>
-      <div>
-        <p>НАбор ключей</p>
+      <div style="background-image: url(/img/s1-2.jpg); background-size:100%;">
+        <p>Акриловые обои</p>
         <p>от 70000 тг.</p>
       </div>
-      <div>
-        <p>Набор ключей</p>
-        <p>от 900000 тг.</p>
+      <div style="background-image: url(/img/s1-3.jpg); background-size:100%;">
+        <p style="color: #FFF;">Флизелиновые обои</p>
+        <p style="color: #fff; margin-top: -20px;">от 900000 тг.</p>
       </div>
     </div>
   </div>
