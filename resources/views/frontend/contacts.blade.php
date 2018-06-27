@@ -29,9 +29,9 @@
 		<p><span class="fa fa-map-marker"></span>ул. Жиделей Байсын 95 (ТК Бекжан)</p>
 		<p><span class="fa fa-mobile"></span>8 707-338-95-91</p>
 <br>
-		<p><span class="fa fa-envelope-o"></span>zhana-aygerim@test.test</p>
+		<p><span class="fa fa-envelope-o"></span>zhana.aygerim <span style="font-family: Verdana;font-size: 1em;margin-left: -3px;">@</span>mail.ru</p>
 
-		<p><span class="fa fa-clock-o"></span>Пн-Пт: 10:00-19:00 Сб-Вс: 10:00-15:00</p>
+		<p><span class="fa fa-clock-o"></span>09:00-19:00 (без выходных)</p>
 
 
 <!-- 		1)Бекет-Батыра 149 (бывшая Фурманова) тел: 57-07-68, сот: 8 707-903-10-32, 8 702-363-12-36

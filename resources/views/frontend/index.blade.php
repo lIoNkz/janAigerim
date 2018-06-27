@@ -101,7 +101,7 @@
 
       <div class="show-catalogue" id="c4">
         <span class="js-close-catalogue"></span>
-        <p class="c-title">Категории раздела "Потолочка"</p>
+        <p class="c-title">Категории раздела "Потолочные изделия"</p>
         <div class="catalogue-content">
           <div class="block">
             <a href="/shop/ceiling/galteli">Галтели(пенополистерол,полиуретан)</a>
@@ -116,7 +116,7 @@
 
       <div class="show-catalogue" id="c5">
         <span class="js-close-catalogue"></span>
-        <p class="c-title">Категории раздела "Плинтусы"</p>
+        <p class="c-title">Категории раздела "Пластиковые изделия"</p>
         <div class="catalogue-content">
           <div class="block">
             <a href="/shop/plinth/plintus">Плинтусы</a>
@@ -131,7 +131,7 @@
 
       <div class="show-catalogue" id="c6">
         <span class="js-close-catalogue"></span>
-        <p class="c-title">Категории раздела "Клеи и жидкие гвозди"</p>
+        <p class="c-title">Категории раздела "Клея и жидкие гвозди"</p>
         <div class="catalogue-content">
           <div class="block">
             <a href="/shop/glue/oboi">Обоиный клей</a>
@@ -146,7 +146,7 @@
         <span class="js-close-catalogue">
   
         </span>
-        <p class="c-title">Категории раздела "Мелочевка"</p>
+        <p class="c-title">Категории раздела "Сопутствующие товары"</p>
         <div class="catalogue-content">
           <div class="block">
             <a href="/shop/misc/kistochki">Кисточки</a>
@@ -163,7 +163,7 @@
         <span class="js-close-catalogue">
   
         </span>
-        <p class="c-title">Категории раздела "Интрументы"</p>
+        <p class="c-title">Категории раздела "Инструменты"</p>
         <div class="catalogue-content">
           <div class="block">
             <a href="/shop/tools/otvertki">Отвертки</a>
@@ -184,11 +184,11 @@
         <a href="#spec" class="catalogue" data-id="c1"><div></div><span>Обои и декор</span></a>
         <a href="#spec" class="catalogue" data-id="c2"><div></div><span>Лаки и краски</span></a>
         <a href="#spec" class="catalogue" data-id="c3"><div></div><span>Напольные покрытия</span></a>
-        <a href="#spec" class="catalogue" data-id="c4"><div></div><span>Потолочка</span></a>
-        <a href="#spec" class="catalogue" data-id="c5"><div></div><span>Плинтусы</span></a>
-        <a href="#spec" class="catalogue" data-id="c6"><div></div><span>Клеи и жидкие гвозди</span></a>
-        <a href="#spec" class="catalogue" data-id="c7"><div></div><span>Мелочевка</span></a>
-        <a href="#spec" class="catalogue" data-id="c8"><div></div><span>Интсрументы</span></a>
+        <a href="#spec" class="catalogue" data-id="c4"><div></div><span>Потолочные изделия</span></a>
+        <a href="#spec" class="catalogue" data-id="c5"><div></div><span>Пластиковые изделия</span></a>
+        <a href="#spec" class="catalogue" data-id="c6"><div></div><span>Клея и жидкие гвозди</span></a>
+        <a href="#spec" class="catalogue" data-id="c7"><div></div><span>Сопутствующие товары</span></a>
+        <a href="#spec" class="catalogue" data-id="c8"><div></div><span>Инструменты</span></a>
       </div>
   </div>
 <!-- end of second-row -->
